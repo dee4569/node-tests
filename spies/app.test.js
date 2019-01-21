@@ -12,12 +12,12 @@ describe('App', () => {
 
     it('should call the spy correctly', () => {
         var spy = expect.createSpy();
-        spy('Dilshani', 20);
-        expect(spy).toHaveBeenCalledWith('Dilshani', 20);
+        spy('Katerina', 20);
+        expect(spy).toHaveBeenCalledWith('Katerina', 20);
     });
 
     it('should call saveUser with user object', () => {
-        var email = 'dilshani@example.com';
+        var email = 'katerina@example.com';
         var password = '123abs'
 
         app.handleSignup(email, password);

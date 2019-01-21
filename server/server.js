@@ -11,10 +11,10 @@ app.get('/', (req, res) => {
 
 app.get('/users', (req, res) => {
     res.send([{
-        name: 'Dilshani',
+        name: 'Katerina',
         age: 20
     }, {
-        name: 'Shanil',
+        name: 'Michael',
         age: 26
     }]
     );

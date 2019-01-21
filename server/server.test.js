@@ -25,7 +25,7 @@ describe('Server', () => {
             .expect(200)
             .expect((res) => {
                 expect(res.body).toInclude({
-                    name: 'Dilshani',
+                    name: 'Katerina',
                     age: 20
                 });
             })
